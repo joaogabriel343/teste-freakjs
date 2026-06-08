@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: meu-projeto
+    runtime: node
+    buildCommand: bun install && bun run build
+    staticPublishPath: .vercel/output/static
+    envVars:
+      - key: BUN_VERSION
+        value: "1.2.0"
