@@ -7,7 +7,7 @@
     "build": "freakjs build"
   },
   "devDependencies": {
-    "freakjs": "link:freakjs",
+    "freakjs": "github:lucas-s-santos/FreakJS",
     "@types/bun": "latest"
   }
 }
